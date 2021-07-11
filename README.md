@@ -24,3 +24,6 @@ Makes multiple Discord accounts go online by using their 0Auth token
 
 ![image](https://user-images.githubusercontent.com/48888771/124753384-36bde580-df29-11eb-89a8-30298c688608.png)
 
+
+
+###### Donate: https://paypal.me/PiggyAwesomeYT?locale.x=en_US
