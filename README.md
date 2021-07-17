@@ -1,5 +1,5 @@
 # discord-token-onliner
-Makes multiple Discord accounts go online by using their 0Auth token
+Makes multiple Discord accounts go online  by using their 0Auth token 
 
 ![image](https://user-images.githubusercontent.com/48888771/124753021-cb741380-df28-11eb-856a-f12385b65281.png)
 ## 1. Insert your tokens into the `tokens.txt` file
@@ -18,6 +18,7 @@ Makes multiple Discord accounts go online by using their 0Auth token
 
 
 ![image](https://user-images.githubusercontent.com/48888771/124753021-cb741380-df28-11eb-856a-f12385b65281.png)
+The tokens will now go online and display a game!
 
 #### Some pieces of this code is based off 9P9's code that i used as an example. Thank you!
 ###### For legal reasons, don't use this. Selfbots is against the Discord Terms Of Service.
