@@ -9,7 +9,7 @@ Makes multiple Discord accounts go online  by using their 0Auth token
 ## 2. Run `npm i` in the directory of the files
 
 
-## 3. Run `npm i discord.js@11.6.2` in the directory of the files. (You need this version to support the use of selfbots)
+## 3. Run `npm i discord.js11@npm:discord.js@11.6.2` in the directory of the files. (You need this version to support the use of selfbots)
 
 ![image](https://user-images.githubusercontent.com/48888771/124750595-f27d1600-df25-11eb-95b2-671da71dbf85.png)
 
