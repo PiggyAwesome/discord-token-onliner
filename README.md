@@ -25,6 +25,14 @@ The tokens will now go online and display a game!
 
 ![image](https://user-images.githubusercontent.com/48888771/124753384-36bde580-df29-11eb-89a8-30298c688608.png)
 
-
-
 ###### Donate: https://paypal.me/PiggyAwesomeYT?locale.x=en_US
+
+
+
+### PS.
+
+###### To try and prevent skids, i will not fix this repo. It only needs small fixes and can be restored easily. 
+
+###### If you really don't know how to fix it, message me on [Telegram: t.me/PigyyAwesomeY](https://t.me/PigyyAwesomeYT) to buy the fix for $5
+
+
