@@ -1,0 +1,23 @@
+{
+  "name": "discord-token-onliner",
+  "version": "1.0.0",
+  "description": "Makes multiple Discord accounts go online  by using their 0Auth token",
+  "main": "onliner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrymDev/discord-token-onliner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrymDev/discord-token-onliner/issues"
+  },
+  "homepage": "https://github.com/TrymDev/discord-token-onliner#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js11": "npm:discord.js@^11.6.2"
+  }
+}
