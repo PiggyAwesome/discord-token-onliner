@@ -6,12 +6,9 @@ Makes multiple Discord accounts go online  by using their 0Auth token
 
 ![image](https://user-images.githubusercontent.com/48888771/124749426-7fbf6b00-df24-11eb-9f34-c9b1976c628c.png)
 
-## 2. Run `npm i` in the directory of the files
+## 2. Install Node.js LTS version from https://nodejs.org/en/
 
-
-## 3. Run `npm i discord.js11@npm:discord.js@11.6.2` in the directory of the files. (You need this version to support the use of selfbots)
-
-![image](https://user-images.githubusercontent.com/48888771/124750595-f27d1600-df25-11eb-95b2-671da71dbf85.png)
+## 3. Run `npm install` in the directory of the files (command prompt)
 
 
 ## 4. Run the onliner with `node onliner.js`
