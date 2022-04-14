@@ -1,6 +1,6 @@
-var fs = require('fs')
+const fs = require('fs')
 const Discord = require("discord.js11");
-var chalk = require('chalk');
+const colors = require('colors');
 
 const tokens = fs.readFileSync('tokens.txt', 'utf-8').replace(/\r|\x22/gi, '').split('\n');
 
@@ -21,7 +21,7 @@ class Bot {
     online() {
         this.bot = new Discord.Client();
         this.bot.on('ready', () => {
-            console.log(chalk.green(`[INFO]`) + `|` + (chalk.blueBright `Logged into `) + (chalk.redBright `%s`) + ` |` + (chalk.blueBright ` ID: `) + (chalk.magenta `%s`) + ` at` + (chalk.yellow ` "%s"`), this.bot.user.tag, this.bot.user.id, new Date().toLocaleTimeString());
+            console.log(colors.green(`[INFO]`) + `|` + (colors.brightBlue `Logged into `) + (colors.brightRed `%s`) + ` |` + (colors.brightBlue ` ID: `) + (colors.magenta `%s`) + ` at` + (colors.yellow ` "%s"`), this.bot.user.tag, this.bot.user.id, new Date().toLocaleTimeString());
             this.bot.on("message", async message => {})
         });
         this.bot.on('ready', () => {
@@ -39,15 +39,15 @@ class Bot {
 }
 
 process.title = ` Piggy's Onliner Epic [Multiple Accounts] Total Accounts: ${tokens.length}`;
-console.log(chalk.green(`Piggy's Onliner `) + (chalk.magenta(`Epic `)) + (chalk.cyanBright(`[Multiple Accounts] `)) + (chalk.red(`Total Accounts: ${tokens.length}`)));
+console.log(colors.green(`Piggy's Onliner `) + (colors.magenta(`Epic `)) + (colors.cyan(`[Multiple Accounts] `)) + (colors.red(`Total Accounts: ${tokens.length}`)));
 console.log("██████╗ ██╗ ██████╗  ██████╗██╗   ██╗███████╗     ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗██████╗ ");
 console.log("██╔══██╗██║██╔════╝ ██╔════╝╚██╗ ██╔╝██╔════╝    ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝██╔══██╗");
 console.log("██████╔╝██║██║  ███╗██║  ███╗╚████╔╝ ███████╗    ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗  ██████╔╝");
 console.log("██╔═══╝ ██║██║   ██║██║   ██║ ╚██╔╝  ╚════██║    ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝  ██╔══██╗");
 console.log("██║     ██║╚██████╔╝╚██████╔╝  ██║   ███████║    ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗██║  ██║");
 console.log("╚═╝     ╚═╝ ╚═════╝  ╚═════╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝");
-console.log(chalk.underline(chalk.green(`                        Created By PiggyAwesome`)));
-console.log(chalk.inverse(`[INFO] - [Token Onliner]`));
+console.log(colors.underline(colors.green(`                        Created By PiggyAwesome`)));
+console.log(colors.inverse(`[INFO] - [Token Onliner]`));
 
 console.log();
 console.log();
