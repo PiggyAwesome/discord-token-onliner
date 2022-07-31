@@ -26,10 +26,4 @@ The tokens will now go online and display a game!
 
 
 
-### PS.
-
-###### To try and prevent skids, i will not fix this repo. It only needs small fixes and can be restored easily. 
-
-###### If you really don't know how to fix it, message me on [Telegram: t.me/PigyyAwesomeY](https://t.me/PigyyAwesomeYT) to buy the fix for $5
-
 
