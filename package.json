@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrymDev/discord-token-onliner.git"
+    "url": "git+https://github.com/PiggyAwesome/discord-token-onliner.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TrymDev/discord-token-onliner/issues"
+    "url": "https://github.com/PiggyAwesome/discord-token-onliner/issues"
   },
-  "homepage": "https://github.com/TrymDev/discord-token-onliner#readme",
+  "homepage": "https://github.com/PiggyAwesome/discord-token-onliner#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "discord.js11": "npm:discord.js@^11.6.2"
