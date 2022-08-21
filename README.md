@@ -10,11 +10,10 @@ Makes multiple Discord accounts go online  by using their 0Auth token
 
 ## 3. Run `npm install` in the directory of the files (command prompt)
 
+## 4. Run `npm i discord.js11@npm:discord.js@11.6.2` in the directory of the files. (You need this version to support the use of selfbots)
 
-## 4. Run the onliner with `node onliner.js`
+## 5. Run the onliner with `node onliner.js`
 
-
-## 3. Run `npm i discord.js11@npm:discord.js@11.6.2` in the directory of the files. (You need this version to support the use of selfbots)
 
 The tokens will now go online and display a game!
 
